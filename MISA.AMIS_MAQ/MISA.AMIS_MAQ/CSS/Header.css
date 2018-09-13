@@ -1,2 +1,88 @@
-﻿body {
+﻿.clearfix {
+    clear: both;
+}
+#header {
+    height: 44px;
+    background-color: #355dbd;
+    width: 100%;
+}
+.header-logo {
+    background-image: url("../Content/Image/logo.png");
+    width: 205px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #355dbd;
+    float: left;
+    margin-left: 80px;
+    background-position: 0 5px;
+    cursor: pointer;
+}
+.header-search {
+    float: left;
+    margin-left: 10px;
+    max-width: 680px;
+    width: 680px;
+    min-width: 445px;  
+    color: #e1e2e4;
+}
+.header-search input {
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin-top: 7px;
+    background-color: #28468e;
+    padding-left: 10px;
+    color: #fff !important;
+}
+.header-search-button {
+    background-image: url("../Content/Image/search.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px) !important;
+    background-position-y: 5px;
+}
+.header-info {
+    float: right;
+    margin-right: 80px;
+}
+.header-info-item {
+    float: left;
+    margin-right: 20px;
+    background-position: 0 10px;
+    cursor: pointer;
+}
+.header-info-icon {
+    width: 22px;
+    height: 44px;
+    background-repeat: no-repeat !important;
+}
+.header-info-help {
+    background-image: url("../Content/Image/help-default.png");
+}
+.header-info-anount {
+    background-image: url("../Content/Image/noti-default.png")
+}
+.header-info-account {
+    background-image: url("../Content/Image/employee-trial-icon.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 01px;
+}
+.header-info-account div {
+    float: left;
+    margin-left: 10px;
+}
+/*.header-info-account .header-info-icon {
+    position: relative;
+    top: -10px;
+}*/
+.account-arrow {
+    background-image: url("../Content/Image/arrow.png") !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+#header .account-name {
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    left: 10px;
 }
